@@ -1,25 +1,26 @@
 import math
 
 
-def fizzbuzz_modulo():
-    for i in range(0, 100):
-        #r = i
-        if i % 15 == 0:
-            i = "fizzbuzz"
-        elif i % 3 == 0:
-            i = "fizz"
-        elif i % 5 == 0:
-            i = "buzz"
-        
-        print i
+# def fizzbuzz_modulo():
+
+#     for i in range(0, 100):
+#         #r = i
+#         if i % 15 == 0:
+#             i = "fizzbuzz"
+#         elif i % 3 == 0:
+#             i = "fizz"
+#         elif i % 5 == 0:
+#             i = "buzz"
+
+#         print i
 
 
 def fizzbuz():
-    for i in range(1, 100):
+    for i in range(1, 101):
         o = i / 3.0
         j = i / 5.0
         f = i / 15.0
-           
+
 
         if (f).is_integer() is True:
             i = "fizbuz"
@@ -30,7 +31,7 @@ def fizzbuz():
         elif (j).is_integer() is True:
             i = "fiz"
 
-        
+
 
         print i
 

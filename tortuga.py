@@ -1,4 +1,4 @@
-import tkinter
+#import tkinter
 import turtle
 import math
 import random
@@ -10,6 +10,7 @@ m.clear()
 m.speed(0)
 
 def angulorandom():
+
     while True:
         x =random.randint(1,60)
         y = 360.0/x
